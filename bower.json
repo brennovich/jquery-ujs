@@ -1,12 +1,13 @@
 {
-  "name": "jquery-ujs",
-  "homepage": "https://github.com/rails/jquery-ujs",
+  "name": "jquery-ujs-standalone",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rails/jquery-ujs-standalone",
   "authors": [],
-  "description": "Ruby on Rails unobtrusive scripting adapter for jQuery",
+  "description": "Clone of Ruby on Rails unobtrusive scripting adapter for jQuery, to play nicely with rails-assets.org",
   "main": "src/rails.js",
   "license": "MIT",
   "dependencies": {
-    "jquery": ">1.7.* <2.0.0"
+    "jquery": ">1.7.*"
   },
   "ignore": [
     "**/.*",
